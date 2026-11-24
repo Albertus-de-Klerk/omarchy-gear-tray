@@ -27,3 +27,11 @@ omarchy bar move omarchy.audio --section tray
 Command line: `omarchy-shell albertus.tray open|close|toggle|status`.
 
 Tested on Omarchy 4.5.0.
+
+## Remove
+
+```bash
+omarchy plugin remove albertus.tray
+omarchy plugin enable omarchy.tray
+omarchy restart shell
+```
