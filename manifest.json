@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "albertus.tray",
+  "name": "Gear Tray",
+  "version": "1.0.0",
+  "author": "Albertus de Klerk",
+  "description": "Hides the right side of the Omarchy bar behind a gear: click the gear to slide the icons out to its left, click it again to hide them. Replaces omarchy.tray.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Tray.qml"
+  },
+  "barWidget": {
+    "displayName": "Gear Tray",
+    "description": "Bar icons behind a click-to-open gear drawer",
+    "category": "Status",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.tray"
+  },
+  "license": "MIT"
+}
